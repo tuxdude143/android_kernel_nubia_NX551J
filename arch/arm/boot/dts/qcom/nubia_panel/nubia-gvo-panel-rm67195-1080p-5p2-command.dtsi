@@ -42,6 +42,7 @@
 		qcom,mdss-dsi-underflow-color = <0xff>;
 		qcom,mdss-dsi-border-color = <0>;
 		qcom,mdss-dsi-lane-map = "lane_map_0123";
+        qcom,mdss-dsi-panel-orientation = "180"; 
                 qcom,mdss-dsi-on-command = [
 			15 01 00 00 00 00 02 FE 0E
 			15 01 00 00 00 00 02 4B 00
@@ -310,6 +311,6 @@
 		qcom,mdss-pan-physical-height-dimension = <104>;
 		qcom,mdss-dsi-tx-eot-append;
 		//qcom,mdss-mdp-transfer-time-us = <14000>;
-		//qcom,mdss-dsi-panel-clockrate = <880000000>;
+		//qcom,mdss-dsi-panel-clockrate = <880000000>;   
 	};
 };
